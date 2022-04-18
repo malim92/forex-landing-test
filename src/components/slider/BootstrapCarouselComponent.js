@@ -6,31 +6,34 @@ import steps from '../../assets/Steps.png';
 class BootstrapCarouselComponent extends React.Component {
   render() {
     return (
-      <div>
-        {/* <div className="container-fluid"> */}
+      <div className="slider-container">
+      <div className="container">
           <div className="row justify-content-md-center">
+              <div className="col-5">
               <Carousel>
-              <div className="col-4">
-              <Carousel.Caption>
-                    <h3>Verify you account</h3>
-                    <p>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.                    </p>
-                  </Carousel.Caption>
-                  </div>
-                
-                  <div className="col-8">
-                  <img
+              <img
                     className="d-block w-100"
                     src={steps} 
                     alt="First slide"
                   />
                   <Carousel.Item></Carousel.Item>
-                  
+              <Carousel.Caption>
+                  </Carousel.Caption>
+                  </Carousel>
+                  </div>
+                  <div className="col-7">
+                    <div className="carousel-desc">
+                    <h3><b>Verify you account</b></h3>
+                    <p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                    <p className="text-trans">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                    </div>
                 </div>
-              </Carousel>
+              
           </div>
         </div>
-      // </div>
+        </div>
     );
   }
 }

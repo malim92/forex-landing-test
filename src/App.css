@@ -159,8 +159,23 @@ h2 {
 img.d-block.w-100 {
   width: 375px!important;
   margin: auto;
+  margin-right: 0px;
 
 }
 .carousel-caption{
   color: #000000;
+}
+.features-text, .features-icons{
+  text-align: center;
+}
+.slider-container{
+  padding: 100px;
+  
+}
+
+.btn-primary {
+  border-color:#FF7A04!important;
+}
+.text-trans{
+  color: #989898;
 }

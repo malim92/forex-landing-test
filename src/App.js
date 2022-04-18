@@ -97,19 +97,19 @@ function App() {
         <div className="row">
           <div className="col-sm justify-content-center">
             <div className="features-icons"><img src={firstIcon}></img></div>
-            0 Commissions & Raw Spreads
+            <p className="features-text">0 Commissions & Raw Spreads</p>
           </div>
           <div className="col-sm">
           <div className="features-icons"><img src={secondIcon}></img></div>
-          Market Analysis & FX Webinars
+          <p className="features-text">Market Analysis & FX Webinars</p>
           </div>
           <div className="col-sm">
           <div className="features-icons"><img src={thirdIcon}></img></div>
-          Instant Trading Execution
+          <p className="features-text">Instant Trading Execution</p>
           </div>
           <div className="col-sm">
           <div className="features-icons"><img src={forthIcon}></img></div>
-          Live Support In Your Language
+          <p className="features-text">Live Support In Your Language</p>
           </div>
         </div>
         </div>
