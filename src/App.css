@@ -179,3 +179,27 @@ img.d-block.w-100 {
 .text-trans{
   color: #989898;
 }
+.swiper {
+  width: 800px;
+  padding-left: 40px;
+
+  height: 550px;
+}
+.carousel-text{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  
+
+}
+.transperant-font{
+  color:#989898;
+}
+.boldy{
+  margin-top: 50px;
+  font-weight: 900;
+}
+.carousel-swiper{
+  margin-top: 50px;
+}
